@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF379EE2C3AAEBD00A43CBA /* Cat_KeyboardApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF379ED2C3AAEBD00A43CBA /* Cat_KeyboardApp.swift */; };
+		CCF379F02C3AAEBD00A43CBA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF379EF2C3AAEBD00A43CBA /* ContentView.swift */; };
+		CCF379F22C3AAEBF00A43CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF379F12C3AAEBF00A43CBA /* Assets.xcassets */; };
+		CCF379F52C3AAEBF00A43CBA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF379F42C3AAEBF00A43CBA /* Preview Assets.xcassets */; };
+		CCF37A002C3AAEBF00A43CBA /* Cat_KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF379FF2C3AAEBF00A43CBA /* Cat_KeyboardTests.swift */; };
+		CCF37A0A2C3AAEBF00A43CBA /* Cat_KeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF37A092C3AAEBF00A43CBA /* Cat_KeyboardUITests.swift */; };
+		CCF37A0C2C3AAEBF00A43CBA /* Cat_KeyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF37A0B2C3AAEBF00A43CBA /* Cat_KeyboardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF379FC2C3AAEBF00A43CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF379E22C3AAEBD00A43CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF379E92C3AAEBD00A43CBA;
+			remoteInfo = Cat_Keyboard;
+		};
+		CCF37A062C3AAEBF00A43CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF379E22C3AAEBD00A43CBA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF379E92C3AAEBD00A43CBA;
+			remoteInfo = Cat_Keyboard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF379EA2C3AAEBD00A43CBA /* Cat_Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cat_Keyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF379ED2C3AAEBD00A43CBA /* Cat_KeyboardApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_KeyboardApp.swift; sourceTree = "<group>"; };
+		CCF379EF2C3AAEBD00A43CBA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CCF379F12C3AAEBF00A43CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF379F42C3AAEBF00A43CBA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CCF379F62C3AAEBF00A43CBA /* Cat_Keyboard.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Cat_Keyboard.entitlements; sourceTree = "<group>"; };
+		CCF379FB2C3AAEBF00A43CBA /* Cat_KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cat_KeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF379FF2C3AAEBF00A43CBA /* Cat_KeyboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_KeyboardTests.swift; sourceTree = "<group>"; };
+		CCF37A052C3AAEBF00A43CBA /* Cat_KeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cat_KeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF37A092C3AAEBF00A43CBA /* Cat_KeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_KeyboardUITests.swift; sourceTree = "<group>"; };
+		CCF37A0B2C3AAEBF00A43CBA /* Cat_KeyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_KeyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF379E72C3AAEBD00A43CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF379F82C3AAEBF00A43CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF37A022C3AAEBF00A43CBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF379E12C3AAEBD00A43CBA = {
+			isa = PBXGroup;
+			children = (
+				CCF379EC2C3AAEBD00A43CBA /* Cat_Keyboard */,
+				CCF379FE2C3AAEBF00A43CBA /* Cat_KeyboardTests */,
+				CCF37A082C3AAEBF00A43CBA /* Cat_KeyboardUITests */,
+				CCF379EB2C3AAEBD00A43CBA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF379EB2C3AAEBD00A43CBA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF379EA2C3AAEBD00A43CBA /* Cat_Keyboard.app */,
+				CCF379FB2C3AAEBF00A43CBA /* Cat_KeyboardTests.xctest */,
+				CCF37A052C3AAEBF00A43CBA /* Cat_KeyboardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF379EC2C3AAEBD00A43CBA /* Cat_Keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				CCF379ED2C3AAEBD00A43CBA /* Cat_KeyboardApp.swift */,
+				CCF379EF2C3AAEBD00A43CBA /* ContentView.swift */,
+				CCF379F12C3AAEBF00A43CBA /* Assets.xcassets */,
+				CCF379F62C3AAEBF00A43CBA /* Cat_Keyboard.entitlements */,
+				CCF379F32C3AAEBF00A43CBA /* Preview Content */,
+			);
+			path = Cat_Keyboard;
+			sourceTree = "<group>";
+		};
+		CCF379F32C3AAEBF00A43CBA /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CCF379F42C3AAEBF00A43CBA /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CCF379FE2C3AAEBF00A43CBA /* Cat_KeyboardTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF379FF2C3AAEBF00A43CBA /* Cat_KeyboardTests.swift */,
+			);
+			path = Cat_KeyboardTests;
+			sourceTree = "<group>";
+		};
+		CCF37A082C3AAEBF00A43CBA /* Cat_KeyboardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF37A092C3AAEBF00A43CBA /* Cat_KeyboardUITests.swift */,
+				CCF37A0B2C3AAEBF00A43CBA /* Cat_KeyboardUITestsLaunchTests.swift */,
+			);
+			path = Cat_KeyboardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF379E92C3AAEBD00A43CBA /* Cat_Keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF37A0F2C3AAEBF00A43CBA /* Build configuration list for PBXNativeTarget "Cat_Keyboard" */;
+			buildPhases = (
+				CCF379E62C3AAEBD00A43CBA /* Sources */,
+				CCF379E72C3AAEBD00A43CBA /* Frameworks */,
+				CCF379E82C3AAEBD00A43CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cat_Keyboard;
+			productName = Cat_Keyboard;
+			productReference = CCF379EA2C3AAEBD00A43CBA /* Cat_Keyboard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF379FA2C3AAEBF00A43CBA /* Cat_KeyboardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF37A122C3AAEBF00A43CBA /* Build configuration list for PBXNativeTarget "Cat_KeyboardTests" */;
+			buildPhases = (
+				CCF379F72C3AAEBF00A43CBA /* Sources */,
+				CCF379F82C3AAEBF00A43CBA /* Frameworks */,
+				CCF379F92C3AAEBF00A43CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF379FD2C3AAEBF00A43CBA /* PBXTargetDependency */,
+			);
+			name = Cat_KeyboardTests;
+			productName = Cat_KeyboardTests;
+			productReference = CCF379FB2C3AAEBF00A43CBA /* Cat_KeyboardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCF37A042C3AAEBF00A43CBA /* Cat_KeyboardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF37A152C3AAEBF00A43CBA /* Build configuration list for PBXNativeTarget "Cat_KeyboardUITests" */;
+			buildPhases = (
+				CCF37A012C3AAEBF00A43CBA /* Sources */,
+				CCF37A022C3AAEBF00A43CBA /* Frameworks */,
+				CCF37A032C3AAEBF00A43CBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF37A072C3AAEBF00A43CBA /* PBXTargetDependency */,
+			);
+			name = Cat_KeyboardUITests;
+			productName = Cat_KeyboardUITests;
+			productReference = CCF37A052C3AAEBF00A43CBA /* Cat_KeyboardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF379E22C3AAEBD00A43CBA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					CCF379E92C3AAEBD00A43CBA = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					CCF379FA2C3AAEBF00A43CBA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CCF379E92C3AAEBD00A43CBA;
+					};
+					CCF37A042C3AAEBF00A43CBA = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = CCF379E92C3AAEBD00A43CBA;
+					};
+				};
+			};
+			buildConfigurationList = CCF379E52C3AAEBD00A43CBA /* Build configuration list for PBXProject "Cat_Keyboard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF379E12C3AAEBD00A43CBA;
+			productRefGroup = CCF379EB2C3AAEBD00A43CBA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF379E92C3AAEBD00A43CBA /* Cat_Keyboard */,
+				CCF379FA2C3AAEBF00A43CBA /* Cat_KeyboardTests */,
+				CCF37A042C3AAEBF00A43CBA /* Cat_KeyboardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF379E82C3AAEBD00A43CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF379F52C3AAEBF00A43CBA /* Preview Assets.xcassets in Resources */,
+				CCF379F22C3AAEBF00A43CBA /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF379F92C3AAEBF00A43CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF37A032C3AAEBF00A43CBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF379E62C3AAEBD00A43CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF379F02C3AAEBD00A43CBA /* ContentView.swift in Sources */,
+				CCF379EE2C3AAEBD00A43CBA /* Cat_KeyboardApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF379F72C3AAEBF00A43CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF37A002C3AAEBF00A43CBA /* Cat_KeyboardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF37A012C3AAEBF00A43CBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF37A0C2C3AAEBF00A43CBA /* Cat_KeyboardUITestsLaunchTests.swift in Sources */,
+				CCF37A0A2C3AAEBF00A43CBA /* Cat_KeyboardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF379FD2C3AAEBF00A43CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF379E92C3AAEBD00A43CBA /* Cat_Keyboard */;
+			targetProxy = CCF379FC2C3AAEBF00A43CBA /* PBXContainerItemProxy */;
+		};
+		CCF37A072C3AAEBF00A43CBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF379E92C3AAEBD00A43CBA /* Cat_Keyboard */;
+			targetProxy = CCF37A062C3AAEBF00A43CBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCF37A0D2C3AAEBF00A43CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF37A0E2C3AAEBF00A43CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CCF37A102C3AAEBF00A43CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cat_Keyboard/Cat_Keyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cat_Keyboard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "y-ueno.Cat-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CCF37A112C3AAEBF00A43CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Cat_Keyboard/Cat_Keyboard.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Cat_Keyboard/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "y-ueno.Cat-Keyboard";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CCF37A132C3AAEBF00A43CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "y-ueno.Cat-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat_Keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cat_Keyboard";
+			};
+			name = Debug;
+		};
+		CCF37A142C3AAEBF00A43CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "y-ueno.Cat-KeyboardTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cat_Keyboard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Cat_Keyboard";
+			};
+			name = Release;
+		};
+		CCF37A162C3AAEBF00A43CBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "y-ueno.Cat-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Cat_Keyboard;
+			};
+			name = Debug;
+		};
+		CCF37A172C3AAEBF00A43CBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "y-ueno.Cat-KeyboardUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Cat_Keyboard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF379E52C3AAEBD00A43CBA /* Build configuration list for PBXProject "Cat_Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF37A0D2C3AAEBF00A43CBA /* Debug */,
+				CCF37A0E2C3AAEBF00A43CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF37A0F2C3AAEBF00A43CBA /* Build configuration list for PBXNativeTarget "Cat_Keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF37A102C3AAEBF00A43CBA /* Debug */,
+				CCF37A112C3AAEBF00A43CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF37A122C3AAEBF00A43CBA /* Build configuration list for PBXNativeTarget "Cat_KeyboardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF37A132C3AAEBF00A43CBA /* Debug */,
+				CCF37A142C3AAEBF00A43CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF37A152C3AAEBF00A43CBA /* Build configuration list for PBXNativeTarget "Cat_KeyboardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF37A162C3AAEBF00A43CBA /* Debug */,
+				CCF37A172C3AAEBF00A43CBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF379E22C3AAEBD00A43CBA /* Project object */;
+}
