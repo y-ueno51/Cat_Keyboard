@@ -8,17 +8,24 @@
 import SwiftUI
 
 struct ContentView: View {
-    var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
-    }
-}
+    @StateObject private var catKeyboard = CatKeyboard()
 
-#Preview {
-    ContentView()
+    var body: some View {
+        Text("Press 'A' to hear the cat sound")
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .background(Color.white)
+            .foregroundColor(Color.black)
+            .onAppear {
+                setupKeyListener()
+            }
+    }
+
+    private func setupKeyListener() {
+        NSEvent.addLocalMonitorForEvents(matching: .keyDown) { event in
+            if event.charactersIgnoringModifiers == "a" {
+                catKeyboard.playSound()
+            }
+            return event
+        }
+    }
 }

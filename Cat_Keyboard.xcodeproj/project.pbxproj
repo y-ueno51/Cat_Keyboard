@@ -14,6 +14,8 @@
 		CCF37A002C3AAEBF00A43CBA /* Cat_KeyboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF379FF2C3AAEBF00A43CBA /* Cat_KeyboardTests.swift */; };
 		CCF37A0A2C3AAEBF00A43CBA /* Cat_KeyboardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF37A092C3AAEBF00A43CBA /* Cat_KeyboardUITests.swift */; };
 		CCF37A0C2C3AAEBF00A43CBA /* Cat_KeyboardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF37A0B2C3AAEBF00A43CBA /* Cat_KeyboardUITestsLaunchTests.swift */; };
+		CCF37A192C3AD6A700A43CBA /* Cat_Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF37A182C3AD6A700A43CBA /* Cat_Keyboard.swift */; };
+		CCF37A232C3D605E00A43CBA /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF37A222C3D605E00A43CBA /* MenuView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		CCF37A052C3AAEBF00A43CBA /* Cat_KeyboardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Cat_KeyboardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF37A092C3AAEBF00A43CBA /* Cat_KeyboardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_KeyboardUITests.swift; sourceTree = "<group>"; };
 		CCF37A0B2C3AAEBF00A43CBA /* Cat_KeyboardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_KeyboardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		CCF37A182C3AD6A700A43CBA /* Cat_Keyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cat_Keyboard.swift; sourceTree = "<group>"; };
+		CCF37A222C3D605E00A43CBA /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,7 +100,9 @@
 			isa = PBXGroup;
 			children = (
 				CCF379ED2C3AAEBD00A43CBA /* Cat_KeyboardApp.swift */,
+				CCF37A182C3AD6A700A43CBA /* Cat_Keyboard.swift */,
 				CCF379EF2C3AAEBD00A43CBA /* ContentView.swift */,
+				CCF37A222C3D605E00A43CBA /* MenuView.swift */,
 				CCF379F12C3AAEBF00A43CBA /* Assets.xcassets */,
 				CCF379F62C3AAEBF00A43CBA /* Cat_Keyboard.entitlements */,
 				CCF379F32C3AAEBF00A43CBA /* Preview Content */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCF37A232C3D605E00A43CBA /* MenuView.swift in Sources */,
+				CCF37A192C3AD6A700A43CBA /* Cat_Keyboard.swift in Sources */,
 				CCF379F02C3AAEBD00A43CBA /* ContentView.swift in Sources */,
 				CCF379EE2C3AAEBD00A43CBA /* Cat_KeyboardApp.swift in Sources */,
 			);
