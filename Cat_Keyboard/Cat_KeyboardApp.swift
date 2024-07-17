@@ -10,8 +10,14 @@ import SwiftUI
 @main
 struct Cat_KeyboardApp: App {
     var body: some Scene {
-        WindowGroup {
+        MenuBarExtra {
             ContentView()
+            Button("Quit") {
+                NSApplication.shared.terminate(nil)
+            }.keyboardShortcut("q")
+        } label: {
+            Label("Cat Keyboard", systemImage: "cat.fill")
         }
+        .menuBarExtraStyle(.window)
     }
 }
