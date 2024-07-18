@@ -9,31 +9,39 @@ import SwiftUI
 import AVFoundation
 
 class CatKeyboard: ObservableObject {
-    private var audioPlayer: AVAudioPlayer?
+    private var audioPlayers: [AVAudioPlayer] = []
+    private var currentAudioPlayer: AVAudioPlayer?
 
     init() {
-        loadAudioFile(named: "CatSound1")
+        loadAudioFiles()
     }
 
-    private func loadAudioFile(named fileName: String) {
-        if let asset = NSDataAsset(name: fileName) {
-            do {
-                audioPlayer = try AVAudioPlayer(data: asset.data, fileTypeHint: "mp3")
-                audioPlayer?.prepareToPlay()
-                print("Audio file \(fileName) loaded successfully")
-            } catch {
-                print("Failed to load audio file \(fileName): \(error)")
+    private func loadAudioFiles() {
+        for i in 1...3 { // CatSound1.mp3, CatSound2.mp3, CatSound3.mp3 があると仮定
+            let fileName = "CatSound\(i)"
+            if let asset = NSDataAsset(name: fileName) {
+                do {
+                    let audioPlayer = try AVAudioPlayer(data: asset.data, fileTypeHint: "mp3")
+                    audioPlayer.prepareToPlay()
+                    audioPlayers.append(audioPlayer)
+                    print("Audio file \(fileName) loaded successfully")
+                } catch {
+                    print("Failed to load audio file \(fileName): \(error)")
+                }
+            } else {
+                print("Audio file \(fileName) not found")
             }
-        } else {
-            print("Audio file \(fileName) not found")
         }
     }
 
-    func playSound() {
-        guard let player = audioPlayer else {
-            print("Audio player is nil")
+    func playRandomSound() {
+        guard !audioPlayers.isEmpty else {
+            print("No audio files loaded")
             return
         }
-        player.play()
+        let randomIndex = Int.random(in: 0..<audioPlayers.count)
+        currentAudioPlayer = audioPlayers[randomIndex]
+        currentAudioPlayer?.play()
     }
 }
+

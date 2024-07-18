@@ -22,7 +22,7 @@ struct ContentView: View {
     
     private func setupKeyHandler() {
         NSEvent.addLocalMonitorForEvents(matching: .keyDown) { event in
-            catKeyboard.playSound()  // どのキーが押されても音を再生する
+            catKeyboard.playRandomSound()  // どのキーが押されても音を再生する
             return event
         }
     }
